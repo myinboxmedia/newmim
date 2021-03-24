@@ -5846,7 +5846,9 @@ hr {
 .testimonials-block .rating .light {
     color: #d0dff2;
 }
-
+.testimonials-section .text {
+    font-size: 20px;
+}
 
 /*** 
 
