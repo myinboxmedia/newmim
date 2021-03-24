@@ -10274,6 +10274,28 @@ hr {
     margin-top: 30px;
 }
 
+/*  */
+
+.cmt::after{
+    background-image: url(../images/make-01.svg);
+    content: '';
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    height: 90vh;
+    width: 100%;
+}
+
+.cmt{
+    background-color: #030522;
+    /* background-image: url('../images/make-01.svg'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -190px;
+}
 
 /*** 
 
