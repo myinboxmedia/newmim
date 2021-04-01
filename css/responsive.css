@@ -429,6 +429,16 @@
         top: 0;
         width: auto;
     }
+    .topImg {
+        width: 200px;
+        height: 200px;
+    }
+    .cmt {
+        padding: 1em 0;
+    }
+    .cmt::after{
+        display: none;
+    }
     .fun-fact-section .text-column .text {
         padding-left: 0;
         text-align: center;
@@ -522,6 +532,7 @@
     .testimonials-block .inner-box {
         padding: 60px 30px;
         text-align: center;
+        height: 36vh;
     }
     .testimonials-block .image {
         position: relative;

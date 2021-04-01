@@ -3994,7 +3994,7 @@ hr {
     background-color: #ffffff;
     border-radius: 10px;
     overflow: hidden;
-    padding: 35px 40px 33px 40px;
+    padding: 35px 20px 33px 20px;
     -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.15);
@@ -4011,7 +4011,7 @@ hr {
 
 .feature-block-three .inner-box .content {
     position: relative;
-    padding-left: 78px;
+    /* padding-left: 78px; */
 }
 
 .feature-block-three .inner-box .icon {
@@ -5773,7 +5773,8 @@ hr {
     overflow: hidden;
     background:#030522;
     padding: 30px 30px;
-    padding-left: 90px;
+    padding-left: 30px;
+    height: 28vh;
     -webkit-border-radius: 7px;
     border-radius: 7px;
     -webkit-transition: all 0.3s ease;
